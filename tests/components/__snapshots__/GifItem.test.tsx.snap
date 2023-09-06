@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifItem /> should match with snapshot 1`] = `
+<div>
+  <article
+    class="card"
+  >
+    <p>
+      caballeros del zodiaco tele GIF
+    </p>
+    <img
+      alt="caballeros del zodiaco tele GIF"
+      src="https://media0.giphy.com/media/3otPot6JtBfr0XTNsY/giphy.gif?cid=a275c19dwjgo8sw41awgigj8ryr13pvd514kkeh2e5kb6ha5&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+    />
+  </article>
+</div>
+`;

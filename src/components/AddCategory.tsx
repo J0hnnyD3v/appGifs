@@ -6,7 +6,7 @@ type Props = {
 }
 
 export const AddCategory = ({ onNewCategory }: Props) => {
-  const [ inputValue, setInputValue ] = useState('Caballeros del Zodiaco');
+  const [ inputValue, setInputValue ] = useState('');
 
   const onInputChange = (ev: React.ChangeEvent<HTMLInputElement>) => {
     ev.preventDefault();
@@ -24,7 +24,7 @@ export const AddCategory = ({ onNewCategory }: Props) => {
   };
 
   return (
-    <form onSubmit={(ev: React.FormEvent<HTMLFormElement>) => onSubmit(ev)}>
+    <form onSubmit={(ev: React.FormEvent<HTMLFormElement>) => onSubmit(ev)} aria-label="form">
       <input
         type="text"
         name="category"

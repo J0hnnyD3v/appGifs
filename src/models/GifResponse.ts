@@ -5,7 +5,7 @@ export interface Welcome {
 }
 
 export interface Datum {
-  type: Type;
+  type: string;
   id: string;
   url: string;
   slug: string;
@@ -15,13 +15,13 @@ export interface Datum {
   username: string;
   source: string;
   title: string;
-  rating: Rating;
+  rating: string;
   content_url: string;
   source_tld: string;
   source_post_url: string;
   is_sticker: number;
-  import_datetime: Date;
-  trending_datetime: Date | TrendingDatetimeEnum;
+  import_datetime: string;
+  trending_datetime: string;
   images: Images;
   user?: User;
   analytics_response_payload: string;

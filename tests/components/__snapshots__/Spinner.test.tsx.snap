@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Spinner /> should match with snapshot 1`] = `
+<div>
+  <section
+    class="spinner-container"
+  >
+    <div
+      class="spinner"
+    />
+  </section>
+</div>
+`;
